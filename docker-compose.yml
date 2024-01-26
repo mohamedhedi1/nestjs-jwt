@@ -1,0 +1,10 @@
+version: '3'
+services:
+  db:
+    image: mysql:12
+    ports:
+      -5432:5432
+    environment:
+      MYSQL_USER : root
+      MYSQL_PASSWORD :
+      MYSQL_DB: nestjs
